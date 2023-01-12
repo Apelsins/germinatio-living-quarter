@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: main
+    password: main
+  flyway:
+    enabled: true
+    validate-on-migrate: true
+
+#logging:
+#  level:
+#    root: DEBUG
