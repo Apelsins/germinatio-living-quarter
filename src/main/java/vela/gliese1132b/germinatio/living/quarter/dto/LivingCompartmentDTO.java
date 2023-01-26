@@ -5,18 +5,20 @@ import jakarta.annotation.Nullable;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
-import java.util.Set;
-
 @Getter
 @AllArgsConstructor
-public class InhabitantDTO {
+public class LivingCompartmentDTO {
 
     @Nullable
     private Long id;
 
     @Nonnull
-    private String name;
+    private String number;
 
     @Nullable
-    private Set<LivingCompartmentDTO> livingCompartments;
+    private String alias;
+
+    @Nonnull
+    private String capacity;
+
 }
